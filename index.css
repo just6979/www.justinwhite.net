@@ -22,8 +22,6 @@ footer {
 	text-align: center;
 }
 footer li {
+    list-style-type: none;
 	display: inline;
-}
-footer img {
-    margin-left: 1em;
 }
