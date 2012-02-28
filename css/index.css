@@ -18,6 +18,9 @@ header h1 {
 header h1 a {
     text-decoration: none;
 }
+header p {
+    margin-bottom: 0;
+}
 header, footer {
     margin: 0;
     padding: 1em;

@@ -1,0 +1,13 @@
+<footer>
+<ul>
+<li><a href="http://www.w3.org/html/logo/"><img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics"></a></li>
+<li><a href="http://nearlyfreespeech.net/"><img src="/img/NearlyFreeSpeech.NET_Logo.png" alt="Hosted at NearlyFreeSpeech.net" title="Hosted at NearlyFreeSpeech.net"></a></li>
+<li><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><li>
+</ul>
+<p id="copyright">
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type"><a href="http://www.justinwhite.net/">justinwhite.net</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:jwATjustinwhiteDOTnet" property="cc:attributionName" rel="cc:attributionURL">Justin White</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+</p>
+</footer>
+
+</body>
+</html>
