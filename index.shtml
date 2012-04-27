@@ -5,7 +5,10 @@
 <article>
 
 <section>
+<header>
 <h2>About</h2>
+</header>
+<div class="content">
 <p>
 This is my personal home/placeholder-ish site. Here you can mostly just find links to other projects I've worked on in my spare time, and current things I'm experimenting with.
 </p>
@@ -15,20 +18,28 @@ This shouldn't break very often, since it's all static files, with just server s
 <p>
 I also maintain a <a href="http://blog.justinwhite.net/">blog</a> at Blogger, but it is infrequently updated. This may change with the faster Blogger dashboard, new Android app, and Google+ integration.
 </p>
+</div>
 </section>
 
 <section>
+<header>
 <h2>In Progress Projects</h2>
+</header>
+<div class="content">
 <dl>
-    <dt>New <a href="/syncprofilepics">Sync Profile Pics</a> Experiment</dt>
+    <dt><a href="/syncprofilepics">Sync Profile Pics</a> Experiment</dt>
         <dd>Sync high quality Facebook profile pictures to Google Contacts.</dd>
-    <dt>Old <a href="http://just6979.appspot.com/">Personal Site</a> Experiment</dt>
-        <dd>Hosted on Google App Engine Python runtime, possibly being moved off App Engine, or at least updated to use the latest runtime features.</dd>
+    <dt><a href="http://just6979.appspot.com/">Old Personal Site</a></dt>
+        <dd>Hosted on Google App Engine Python runtime, possibly being moved/cannibalized here, or maybe updated to use the latest App Engine features.</dd>
 </dl>
+</div>
 </section>
 
 <section>
+<header>
 <h2>Potential Projects</h2>
+</header>
+<div class="content">
 <p>
 These are some ideas I've head floating around in my head, some for years, some newish, all I would like to get going someday, in no particular order.
 </p>
@@ -44,10 +55,14 @@ These are some ideas I've head floating around in my head, some for years, some 
     <dt>Deep Wiki Engine</dt>
         <dd>Basically, a web site management engine where everything, and I mean everything, from individual page content to templates to stylesheets and maybe even scripts, is editable through the browser interface. Revision control will have to be an integral part, along with a few pieces (fall-back editor, for example) that cannot be edited through the browser. Kind-of started this idea on App Engine.</dd>
 </dl>
+</div>
 </section>
 
 <section>
+<header>
 <h2>Source Repositories</h2>
+</header>
+<div class="content">
 <p>
 I love [distributed] version control. I started with Subversion, which is not distributed, but quickly switched to Mercurial for my own projects, and I've now also used Git for various contributions. Depending on the project, I use various hosting services:
 </p>
@@ -62,7 +77,7 @@ I love [distributed] version control. I started with Subversion, which is not di
 <p>
 <a href="http://bitbucket.org/just6979/justinwhite.net">Source</a> for (this page and the global styles and scripts of) <a href="/">justinwhite.net</a> is a <a href="http://mercurial.selenic.com/">Mercurial</a> repository hosted by <a href="http://bitbucket.org/">Bitbucket</a>.
 </p>
-</section>
+</div></section>
 
 </article>
 

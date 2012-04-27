@@ -10,4 +10,9 @@
 
 <link rel="stylesheet" type="text/css" href="/css/index.css">
 
+<link rel="stylesheet" type="text/css" href="/css/mobile.css"
+    media="only screen and (max-height: 600px)" />
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
 <script type="text/javascript" src="/js/index.js"></script>

@@ -20,6 +20,9 @@ a {
     color: #aaccff;
 }
 
+header {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
 hgroup, footer {
     color: #ccccd4;
     background-color: #33333b;
@@ -70,4 +73,16 @@ section h2 {
 section p {
     text-indent: 1em;
     text-align: justify;
+}
+
+.content {
+	padding: 0em 1em;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: block;
 }
