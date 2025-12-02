@@ -1,6 +1,62 @@
-<!--#include virtual="/head.shtml"-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>justinwhite.net</title>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <style>@media only screen and (max-height: 600px) {section div{display: none;}}</style>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script async type="text/javascript">
+      $(document).ready(function(){
+        $("section header").click(function(event){
+          $(this).siblings('.content').toggleClass("visible invisible");
+        });
+      });
+    </script>
 
-<!--#include virtual="/header.shtml"-->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-21833265-1']);
+      _gaq.push(['_setDomainName', 'justinwhite.net']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+</head>
+<body>
+
+<header>
+    <hgroup>
+        <h1 class="title"><a href="/">justinwhite.net</a></h1>
+        <p>
+            Justin's inter-web headquarters!
+        </p>
+    </hgroup>
+</header>
+
+<!--
+<section class="ad">
+<script type="text/javascript">
+google_ad_client = "ca-pub-6394705322142668";
+/* justinwhite.net */
+google_ad_slot = "8990779794";
+google_ad_width = 234;
+google_ad_height = 60;
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</section>
+-->
 
 <article>
 
@@ -93,5 +149,15 @@ I love [distributed] version control. I started with Subversion, which is not di
 
 </article>
 
-<!--#include virtual="/footer.shtml"-->
+<footer>
+    <ul>
+        <li><a href="http://nearlyfreespeech.net/"><img src="/img/NearlyFreeSpeech.NET_Logo.png" alt="Hosted at NearlyFreeSpeech.net" title="Hosted at NearlyFreeSpeech.net" width="139" height="40"></a></li>
+        <li><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/cc-by-nc-sa-3.0.png" width="88" height="31"></a><li>
+    </ul>
+    <p id="copyright">
+        <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type"><a href="http://www.justinwhite.net/">justinwhite.net</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:jwATjustinwhiteDOTnet" property="cc:attributionName" rel="cc:attributionURL">Justin White</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+    </p>
+</footer>
 
+</body>
+</html>
